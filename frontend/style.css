@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto+Mono&display=swap');
+
+@font-face {
+    font-family: myfont;
+    src: url(Rumpi.ttf);
+}
+
+*{
+    font-family: 'myfont' , monospace;
+}
+
+body {
+    background-color: floralwhite;
+    margin: 0px;
+}
+
+h3 {
+    color: red;
+    font-family: 'Roboto Mono', monospace;
+}
+
+li, p{
+    color: orangered;
+}
+
+.fancy{
+    color:blueviolet
+}
+
+#top{
+    background-color: grey;
+}
+
+#top a{
+    color: white;
+}
+
+#top a:hover{
+    color:hotpink;
+}
+
+img{
+    width: 10%;
+    float:right;
+}
+
+.content{
+    background-color: beige;
+    border: 5px solid black;
+    width:400px;
+    overflow:auto;
+    box-sizing: border-box;
+}
