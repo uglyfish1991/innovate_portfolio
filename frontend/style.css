@@ -1,38 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto+Mono&display=swap');
-
-@font-face {
-    font-family: myfont;
-    src: url(Rumpi.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Space+Mono&display=swap');
 
 *{
     font-family: 'myfont' , monospace;
 }
 
 body {
-    background-color: floralwhite;
+    background-color: rgb(9, 47, 47);
     margin: 0px;
 }
 
-h3 {
-    color: red;
-    font-family: 'Roboto Mono', monospace;
+h1,h2,h3 {
+    margin-top: 0px;
+    text-align: center;
+    color: rgb(5, 46, 22);
+    font-family: 'Koulen', cursive;
 }
 
 li, p{
-    color: orangered;
+    color: black;
+    text-align: center;
 }
 
-.fancy{
-    color:blueviolet
-}
 
 #top{
-    background-color: grey;
+    background-color: rgb(25, 25, 25);
+    height: 5vh;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #top a{
-    color: white;
+    color: gold;
+    font-size: 2em;
+    text-decoration: none;
 }
 
 #top a:hover{
@@ -41,13 +41,15 @@ li, p{
 
 img{
     width: 10%;
-    float:right;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .content{
     background-color: beige;
-    border: 5px solid black;
-    width:400px;
-    overflow:auto;
-    box-sizing: border-box;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
