@@ -1,0 +1,50 @@
+.bg-light{
+    background-color: aqua !important;
+}
+
+.button1 {
+    background-color: #dbdbdb;
+    padding: 15px;
+    border: 2px solid #515151;
+}
+
+.button2 {
+    background-color: #dbdbdb;
+    padding: 15px;
+    border: 2px solid #515151;
+    transition-duration: 0.5s;
+}
+
+.button2:hover{
+    background-color: #0f7f17;
+    color: #dbdbdb;
+    border: 2px solid #212121;
+}
+
+.button3 {
+    background-color: #dbdbdb;
+    padding: 15px;
+    border: 2px solid #515151;
+    transition-duration: 0.5s;
+    box-shadow: 2px 2px grey;
+}
+
+.button3:hover{
+    background-color: #0f7f17;
+    color: #dbdbdb;
+    border: 2px solid #212121;
+    cursor: pointer;
+}
+
+.button3:active{
+    transform: translateY(2px);
+    box-shadow: 2px 1px grey;
+}
+
+.button4{
+    background-color: red;
+    padding: 15px;
+    border: 2px solid black;
+    opacity: 0.5;
+    cursor: not-allowed;
+}

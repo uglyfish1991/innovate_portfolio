@@ -1,4 +1,4 @@
-from flask import render_template, redirect, Blueprint, request
+from flask import render_template, redirect, url_for, Blueprint, request
 from favs import fav_bands, add_to_list # a file I have with data, functions and variables on
 # from app import app
 
@@ -19,3 +19,15 @@ def about():
         add_to_list(new_band) #perform the function (which we import from my favs.py file and import on line 2) with the paramter new_band which we make on line 18
 
     return render_template('about.html', fav_bands=fav_bands) #return about.html with this variable taken from my py file favs, which we import on line 2
+
+@my_view.route("/home")
+def home_redirect():
+    return redirect(url_for("my_view.home"))
+
+# @my_view.route("/home")   #specifies the url the user would type in for this function to occur
+# def home_redirect():
+#     return redirect(url_for("my_view.home"))   #return the url for the home function specified on line 8
+
+# @my_view.route("/homepage")
+# def homeb_redirect():
+#     return redirect(url_for("my_view.home"))

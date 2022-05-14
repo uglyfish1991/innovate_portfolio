@@ -13,13 +13,3 @@ def page_not_found(e): #page_not_found is the function - (e) is the variable tha
 if __name__=="__main__":
     app.run(debug=True, port=8000) # debugging is activated and the project is set to hosted on port 8000 (debugging should only be used in testing).
 
-# folder structure should be:
-#     main_folder
-#         virtual env folder - we activate it, and that's it!
-#         static folder
-#             you can define more folders here if you like!
-#             static files like style.css
-#         templates folder
-#             html files like base.html, index - anything we return with render_template
-#         app.py
-#         views.py
